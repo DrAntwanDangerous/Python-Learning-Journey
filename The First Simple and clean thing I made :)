@@ -1,0 +1,36 @@
+print("Welcome, Citizen of the world")
+
+while True:
+    print("The day is new and the air is still, let me ask, how are you today??")
+    spirit=input("Type one word to describe your Spirit (radiant, stong, dreaming, energized, tired, hungry, weak, supercharged, stressed,  calm): ")
+
+    if spirit.lower() == "radiant":
+        print("Your energy is the torch that lights the way, looking within I see you have a fire inside.")
+    elif spirit.lower() == "strong":
+        print("You have come a long way!, I always knew you were strong, Now you do as well.")
+    elif spirit.lower() =="dreaming":
+        print("Dream boldly, for you are crafting new worlds..")
+    elif spirit.lower() =="energized":
+        print("Sending positive energy your way to maximise your energy with more energy!.")
+    elif spirit.lower() =="stressed":
+        print("Now take a few nice deep breaths, breath work is important, squeeze your hand into a fist tightly and hold, then release and feel the stress leaving you.")
+    elif spirit.lower() =="tired":
+        print("Let's take a nap :) .")
+    elif spirit.lower() =="hungry":
+        print("Make yourself something amazing! you can do it!!! :) .")
+    elif spirit.lower() =="Weak":
+        print("I send you my strength, things will get better, rest and think about your soul.")
+    elif spirit.lower() =="supercharged":
+        print("Ride the lightning! Go get em!!")
+    elif spirit.lower() =="Calm":
+        print(" It is nice to be at peace, I am happy for you.")
+    else:
+        print("No matter how your Spirit feels, you are loved and protected.")
+
+    again=input("Would you like to chat again (Yes/No)??")
+    
+    if again.lower() =="no":
+        print(" When you're ready come back and see me.")
+        exit()
+    else:
+        continue
