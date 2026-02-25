@@ -1,0 +1,31 @@
+answers = { 
+  1:"Yes, of course",
+  2:"It appears to be so",
+  3:"I dont get you, ask again",
+  4:"One more time please",
+  5:"I'm not telling",
+  6:"Not gonna happen",
+  7:"Feels like a yes",
+  8:"Oh heck no!",
+  9:"Undecided, try later",
+}
+
+import random
+input("Will I marry Sally?")
+num=random.randint(1,9)
+print(answers[num])
+print()
+
+input("Will I make another dictionary to store answers again?")
+num=random.randint(1,9)
+print(answers[num])
+print()
+
+input("Can I make nice clean code?")
+num=random.randint(1,9)
+print(answers[num])
+print()
+
+input("Is the future looking good?")
+num=random.randint(1,9)
+print(answers[num])
