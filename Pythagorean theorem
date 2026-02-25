@@ -1,0 +1,9 @@
+username = input("Enter your name: ")
+print(username)
+age =int(input("Whats your age??"))
+print(username)
+print(age)
+a = int(input("What is side a?"))
+b = int(input("What is side b?"))
+c = (a**2 + b**2)**0.5
+print(c)
