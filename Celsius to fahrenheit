@@ -1,0 +1,7 @@
+
+temperature =int(input("Whats the temperature in Fahrenheit? (Numbers only)"))
+temperature = (temperature - 32) * 5/9
+print(str(temperature)+" degrees Celsius")
+
+# Nice clean start with a celsius to fahrenheit converter:
+#I'd like to work it up eventually so I can type my number and it will understand as well. 
