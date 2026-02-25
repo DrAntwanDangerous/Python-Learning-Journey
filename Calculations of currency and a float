@@ -1,0 +1,18 @@
+C = float(input("How many Colombian?"))
+P = float(input("How many Peruvian?"))
+B = float(input("How many Brazillian?"))
+D = (C * 0.00027)
+E = (P * 0.30)
+F = (B * 0.19)
+G = (D+E+F)
+print("Colombian pesos left in USD 18/02/2026") 
+print (D)
+print
+print("Peruvian soles left in USD 18/02/2026")
+print (E)
+print
+print("Brazlilian reais left in USD 18/02/2026")
+print (F)
+print
+print("Total USD:")
+print(G)
