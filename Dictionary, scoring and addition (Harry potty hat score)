@@ -1,0 +1,50 @@
+ans = { "H": 0, "S": 0, "R": 0, "G": 0 }
+
+answer = int(input("Do you like (1)dawn or (2)dusk? "))
+
+if answer == 2:
+    ans["H"] += 1
+    ans["S"] += 1
+
+elif answer == 1:
+    ans["G"] += 1
+    ans["R"] += 1
+
+else:
+    print("Wrong input")
+
+print(ans)
+
+answer2 = int(input("When I'm dead, I want people to remember me as: (1) The Good (2) The Great (3) The Wise (4) The Bold "))
+
+if answer2 == 1:
+    ans["H"] += 2
+
+elif answer2 == 2:
+    ans["S"] += 2
+
+elif answer2 == 3:
+    ans["R"] += 2
+
+elif answer2 == 4:
+    ans["G"] += 2
+
+else:
+    print("Wrong input")
+
+print(ans)
+
+answer3 = int(input("Q3) Which kind of instrument most pleases your ear? (1) The violin (2) The trumpet (3) The piano (4) The drum\n"))
+
+if answer3 == 1:
+    ans["S"] += 4
+elif answer3 == 2:
+    ans["H"] += 4
+elif answer3 == 3:
+    ans["R"] += 4
+elif answer3 == 4:
+    ans["G"] += 4
+else:
+    print("Wrong input")
+
+print(ans)

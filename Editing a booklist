@@ -1,0 +1,28 @@
+import time
+
+def show_books(title, books):
+    print(title)
+    for book in books:
+        print(book)
+        time.sleep(2)
+    print()
+
+booklist = [
+    'Harry Potter',
+    '1984',
+    'The Fault in Our Stars',
+    'The Mom Test',
+    'Life in Code'
+]
+
+show_books("Original list:", booklist)
+
+booklist.append("Pachinko")
+show_books("After appending:", booklist)
+
+booklist.remove("1984")
+booklist.remove("Life in Code")
+show_books("After removing books:", booklist)
+
+
+
